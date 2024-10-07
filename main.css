@@ -1,0 +1,181 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+.div1{
+    display: flex;
+    height:auto;
+    width:auto;
+    background-color: rgba(200, 34, 108);
+    
+}
+.prof{
+   
+    width: 35px; 
+   height: 35px;
+   
+ 
+}
+.img{
+  align-self:center;
+  background-color: aquamarine;
+ margin-left: 5px;
+}
+.abc{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 20px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: small;
+    
+    
+}
+.search{
+    
+    background-color: rgb(200, 34, 108);
+    
+    
+    
+    
+}
+input{
+    width:360px;
+    margin-left: 10px;
+}
+
+
+.imgA{
+    
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-left: 15px;
+    filter: invert(100%) brightness(200%);
+    stroke: aliceblue;
+   
+}
+
+.searchB{
+    
+    height: 30px;
+    
+    
+    border-radius: 5px;
+    
+   
+}
+
+.adress{
+    width: 22px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    
+}
+.adress > .Down{
+   
+    
+    width: 22px;
+    height: 22px;
+    filter: invert(100%) brightness(200%);
+    stroke: aliceblue;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+ .abc >.searchB{
+    margin-left: 200px;
+   
+    
+    
+}
+.abc > .h6{
+    font-size: medium;
+}
+.paan{
+  width: 1000px;
+  margin-left: 250px;
+  
+}
+
+.box {
+    display: flex;
+    overflow-x: auto;
+    width: 1500px; 
+    height: 200px; 
+    
+    border: 1px solid #ccc; 
+    white-space: nowrap; 
+}
+
+.scroll-container {
+    display: flex; 
+}
+
+.scroll-container img {
+    height: 100%; 
+    width: auto; 
+    margin-right: 10px; 
+}
+
+.New {
+    display: block;
+    text-align: center;
+    margin-right: 1360px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.New h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333; 
+}
+
+.box::-webkit-scrollbar {
+    display: none; 
+}
+
+.box {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+.box2{
+    display: flex;
+    
+    width: 1500px; 
+    height: 200px; 
+   padding: 10px;
+   justify-content: space-between;
+}
+.New2 {
+    display: block;
+    text-align: left;
+    margin-right: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.New2 h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333; 
+}
+.New2 h3 {
+    display: block;
+    text-align: right;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: red;
+}
+
+
